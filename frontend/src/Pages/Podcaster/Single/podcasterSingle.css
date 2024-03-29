@@ -1,0 +1,132 @@
+.p-details-c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.p-details-c:hover {
+  transform: none;
+}
+
+.collection-box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.collection-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: top 0.5s ease, left 0.5s ease;
+  box-shadow: rgba(255, 255, 255, 0.4) -5px 5px,
+    rgba(255, 255, 255, 0.3) -10px 10px, rgba(255, 255, 255, 0.2) -15px 15px,
+    rgba(255, 255, 255, 0.1) -20px 20px, rgba(255, 255, 255, 0.05) -25px 25px;
+  filter: brightness(50%);
+}
+
+.collection-box .collection-details {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.collection-box .collection-details h2,
+.collection-box .collection-details p {
+  margin: 0;
+}
+
+.collection-box .collection-details h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px black;
+  font-family: "Sometype Mono", monospace;
+  transition: top 0.3s ease, left 0.3s ease;
+}
+
+.collection-box .collection-details p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.collection-box:hover {
+  box-shadow: none;
+}
+.collection-box:hover img {
+  filter: blur(5px) brightness(30%);
+  cursor: pointer;
+  padding: 0;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.ant-modal .ant-modal-content {
+  background-color: black;
+  color: white;
+  box-shadow: rgba(202, 202, 202, 0.447) 0px 4px 12px;
+}
+.ant-modal-title {
+  background-color: black;
+  color: #fff !important;
+}
+
+.anticon svg {
+  fill: white !important;
+}
+
+.rhap_container {
+  background-color: black;
+}
+
+.rhap_time {
+  color: #fff;
+}
+
+.rhap_main-controls-button {
+  width: 100px; /* Adjust width as needed */
+  color: #885cd4;
+  height: auto;
+}
+
+.rhap_play-pause-button {
+  font-size: 90px;
+}
+
+.rhap_rewind-button,
+.rhap_forward-button {
+  font-size: 60px;
+}
+
+.rhap_progress-filled {
+  background-color: #00c9c8 !important;
+}
+
+.rhap_progress-bar-show-download {
+  background-color: #3a3a3a18;
+}
+
+.rhap_progress-indicator {
+  background-color: #885cd4 !important;
+}
+
+.rhap_volume-button {
+  color: #885cd4 !important;
+}
+
+.rhap_volume-bar {
+  background: rgba(255, 255, 255, 0.395) !important;
+}
+
+.rhap_volume-indicator {
+  background: #885cd4 !important;
+}
+
+.rhap_repeat-button {
+  color: #885cd4 !important;
+}

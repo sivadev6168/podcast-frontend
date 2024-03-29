@@ -1,0 +1,36 @@
+.input-main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 26px;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.custom-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background: transparent;
+}
+
+@media (max-width: 600px) {
+  .input-main {
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .custom-input {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

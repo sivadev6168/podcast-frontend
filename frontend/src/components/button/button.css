@@ -1,0 +1,115 @@
+.button-primary {
+  background-color: #a3cfcd;
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-primary:after {
+  background-color: #ffffff17;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -1px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.button-primary:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-primary:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-primary:hover {
+  outline: 0;
+}
+
+.button-secondary {
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #00667a 0%, #00667a9c 100%);
+  box-shadow: 0 5px 10px -4px #00667a;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-secondary:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.button-secondary:active {
+  opacity: 0.5;
+}
+
+/* submit button */
+
+.submit-btn {
+  background: #371959;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.submit-btn:hover {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 0;
+}
+.submit-btn:before,
+.submit-btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1px;
+  width: 0;
+  background: #ffffff;
+  transition: 400ms ease all;
+}
+.submit-btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.submit-btn:hover:before,
+.submit-btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}

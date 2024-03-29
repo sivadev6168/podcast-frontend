@@ -1,0 +1,198 @@
+:root {
+  color-scheme: light dark;
+  background-color: #000000;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+.heading-primary {
+  color: #00c9c8;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px white;
+  margin: 0;
+}
+
+.secondary-primary {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.primary-p {
+  color: #cf9eac;
+  font-size: 20px;
+}
+
+.section-spacing {
+  margin: 30px 0px;
+}
+
+.subscribe-btn {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #371959;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 4px 14px 0 rgba(109, 109, 109, 0.39);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 6px 20px rgba(201, 201, 201, 0.23);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .heading-primary {
+    font-size: 26px;
+  }
+  .home-container {
+    flex-direction: column;
+  }
+  .img1,
+  .img0 {
+    width: 100%;
+  }
+  .flexed-end-div {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .home-podcaster {
+    top: 60%;
+  }
+  .home-a {
+    font-size: 18px;
+  }
+  .userlogin-main .form-user {
+    width: 100%;
+  }
+  .user-signup-form form {
+    width: auto;
+  }
+  .search-box {
+    flex-direction: column;
+  }
+  .user-home-h {
+    font-size: 28px;
+  }
+  .sm-box {
+    width: 100px;
+    height: 150px;
+  }
+  .sm-box > h6 {
+    font-size: 14px;
+  }
+  .show-search-box {
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-home-box-main {
+    flex-direction: column;
+  }
+  .user-home-box-main > h1 {
+    font-size: 32px;
+  }
+  .home-main-img {
+    width: 100%;
+  }
+  .side-heading {
+    font-size: 28px;
+  }
+  .podcaster-box img {
+    width: 100px;
+    height: 100px;
+  }
+  .home-box-texts h2 {
+    font-size: 30px;
+  }
+  .home-box-texts p {
+    font-size: 14px;
+  }
+  .home-box-texts {
+    width: 100%;
+  }
+  .collection-box .collection-details h2 {
+    font-size: 25px;
+  }
+  .image-podcast-d {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .image-podcast-d > h1 {
+    top: 80%;
+  }
+  .pod-contents > p {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .episode-podcaster {
+    margin-top: 40px;
+  }
+  .ep-des > h3 {
+    font-size: 14px;
+  }
+
+  .podcaster-details-player img {
+    width: 160px;
+    height: 160px;
+  }
+  .social {
+    display: flex;
+  }
+  .podcasterlogin-main .form-user {
+    width: 100%;
+  }
+  .user-signup-heading {
+    font-size: 30px;
+  }
+  .podcastersignup-main .form-flex {
+    flex-direction: column;
+  }
+  .user-signup-des {
+    font-size: 14px;
+    padding: 40px;
+  }
+
+  .add-podcast {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .player-main-img {
+    width: 100%;
+    box-shadow: none;
+  }
+  .ant-modal .ant-modal-content {
+    box-shadow: none;
+    padding: 30px;
+  }
+  .p-details-c {
+    flex-direction: column;
+  }
+}
